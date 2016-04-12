@@ -1,0 +1,62 @@
+#navigation{
+    width:926px;
+    padding: 4px 4px 4px 30px;
+    height: 25px;
+}
+#navigation ul>li{
+    float: left;
+    padding-right:25px ;
+    position: relative;
+    z-index: 100;
+    font-size: 16px;
+    line-height: 25px;
+}
+#navigation ul li a{
+    color: white;
+    font-family:"黑体" ;
+    font-weight: 600;
+}
+
+/*文字*/
+#navigation ul li div{
+    background:#FFF;
+    width: 400px;
+    height: 100px;
+    display: none;
+    border: 1px solid #3c3c3c;
+    border-radius:10px ;
+}
+#navigation ul li:hover div{
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: -10px;
+}
+.mark_1{
+    overflow: hidden;
+    border-bottom: 1px dotted #000;
+    padding:7px;
+    margin: 7px;
+}
+.mark_2{
+    margin-left: 14px;
+}
+strong{
+    color: black;
+    font-size:16px ;
+}
+#navigation ul li div ul li{
+    padding: 0px;
+}
+#navigation ul li div ul li a{
+    font-size: 14px;
+    font-weight:300 ;
+    color:#979595;
+    border-right: 1px dotted #000;
+    padding: 0px 10px 0px;
+}
+
+
+
+
+

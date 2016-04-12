@@ -1,0 +1,67 @@
+#header{
+    width: 960px;
+    height: 70px;
+    border-bottom: 1px solid #AAAAAA;
+    margin: 0px auto 2px;
+    background-color:#f1f1f1;
+}
+#logo img{
+    display: inline-block;
+    padding-left:10px;
+}
+#skin{
+    float:right;
+    margin: 10px;
+    padding: 5px;
+    width: 120px;
+    border: 1px solid #CCCCCC;
+    background: #FFF;
+}
+#skin li{
+    float: left;
+    margin-right:4px;
+    height: 15px;
+    width: 15px;
+    text-indent:-9999px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius:5px;
+    background-image:url(../image/change_1.jpg) ;
+    display: block;
+}
+#skin_0{
+    background-position:0px 0px ;
+}
+#skin_1{
+    background-position:-20px 0px ;
+}
+#skin_2{
+    background-position:-40px 0px ;
+}
+#skin_3{
+    background-position:-60px 0px ;
+}
+#skin_4{
+    background-position:-80px 0px ;
+}
+#skin_5{
+    background-position:-100px 0px ;
+}
+#skin_0.select{
+    background-position:0px 15px ;
+}
+#skin_1.select{
+    background-position:-20px 15px ;
+}
+#skin_2.select{
+    background-position:-40px 15px ;
+}
+#skin_3.select{
+    background-position:-60px 15px ;
+}
+#skin_4.select{
+    background-position:-80px 15px ;
+}
+#skin_5.select{
+    background-position:-100px 15px ;
+}
